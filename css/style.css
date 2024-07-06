@@ -74,3 +74,17 @@ li:hover span:nth-child(2)
 {
     font-weight: bold;
 }
+
+.footer
+{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.footer:hover
+{
+    color: white;
+}
