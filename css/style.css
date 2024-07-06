@@ -43,6 +43,23 @@ ul
     margin-top: 15px;
 }
 
+ul h3
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bolder;
+    display: inline-block;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+ul h3::after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
 li
 {
     list-style-type: circle;
