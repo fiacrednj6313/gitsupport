@@ -30,19 +30,20 @@
                     <span>Voir tous les changements apportées au projet</span>
                 </li>
                 <li>
-                    <span>git add. || git add * || git add "nom fichier"</span>: 
-                    <span>Ajouter un ou plusieurs fichier dans l'index pour que git puisse les suivre</span>
+                    <span>git add. || git add * || git add --all || git add "nom fichier"</span>: 
+                    <span>Ajouter un ou plusieurs fichier dans l'index</span>
                 </li>
                 <li>
                     <span>git commit -m "nom du commit"</span>: 
                     <span>Envoyer tous les fichiers indexés vers le depots git</span>
                 </li>
                 <li>
-                    <span>git log</span>: 
+                    <span>git log | git log --all</span>: 
                     <span>Permet de voir tous les logs ( notamment les commits )</span>
                 </li>
             </ul>
         </div>
+        <br>
         <div class="cmd-modify">
             <ul>
                 <li>
@@ -52,8 +53,16 @@
                     </span>
                 </li>
                 <li>
-                    <span>git diff num_commit_1 num_commit_2 | git diff numm_commit_1 num_commit_2 "nom fichier specifique"</span>: 
+                    <span>git diff id_commit_1 id_commit_2 | git diff id_commit_1 id_commit_2 "nom fichier specifique"</span>: 
                     <span>Permet de comparer les modifications faites dans la commit 1 par rapport à la commit 2 et on peut preciser un fichier specifiquer pour faire la comparaison</span>
+                </li>
+                <li>
+                    <span>git checkout id_commit_1</span>:
+                    <span>Permet de basculer vers un different commit selon son id</span>
+                </li>
+                <li>
+                    <span>git checkout "nom branche"</span>:
+                    <span>Permet de se mettre dans la dernière commit</span>
                 </li>
             </ul>
         </div>
