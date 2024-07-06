@@ -68,13 +68,31 @@
                     <span>git checkout "nom branche"</span>:
                     <span>Permet de se mettre dans la dernière commit</span>
                 </li>
+                <li>
+                    <span>git restore --source=id_commit "nom fichier à restorer"</span>:
+                    <span>Permet de restorer un ou plusieurs fichiers d'un ancien commit via son id</span>
+                </li>
+                <li>
+                    <span>git restore "nom fichier à restorer"</span>:
+                    <span>Permet de restorer un ou plusieurs fichiers vers l'etat du commit principale</span>
+                </li>
+                <li>
+                    <span>git reset id_commit</span>:
+                    <span>Supprime les commits au dessus du commit id_commit mais on garde les dernieres modifications faites sur tous les fichiers ( on appel se proceder <b><em>reset soft</em></b> )</span>
+                </li>
+                <li>
+                    <span>git reset --hard</span>:
+                    <span>Supprime les commits au dessus du commit id_commit et resotre tous les fichers vers la commit id_commit</span>
+                </li>
             </ul>
         </div>
-        <div>
+        <div class="cmd-branch">
             <ul>
                 <li>
-                    <span></span>:
-                    <span></span>
+                    <span>git branch -M main</span>:
+                    <span>
+                        Permet de voir tous les modifications faites dans le projet ou dans un fichier specifique
+                    </span>
                 </li>
             </ul>
         </div>
